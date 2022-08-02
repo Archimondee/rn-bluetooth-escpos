@@ -55,7 +55,7 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-    implementation "androidx.core:core-ktx:+"
+    implementation 'androidx.appcompat:appcompat:1.1.0-rc01'
     //implementation group: 'com.android.support', name: 'support-v4', version: '27.0.0'
     implementation "com.google.zxing:core:3.3.0"
 }
